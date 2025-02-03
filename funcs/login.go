@@ -8,6 +8,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
+	"os"
 )
 
 func Login(w http.ResponseWriter, r *http.Request) {
@@ -39,7 +40,7 @@ func Login(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 		return
 	}
-	json.NewEncoder(w).Encode(map[string]string{"status": "success", "message": "Login successful"})
+	json.NewEncoder(w).Encode(map[string]string{"status": "success", "message": "Login successful", "session_key": os.Getenv("SESSION_KEY")})
 }
 
 // Checks the Login status by looking for the user session

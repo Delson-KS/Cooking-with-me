@@ -198,3 +198,21 @@
 {"level":"info","msg":"Graceful shutdown initiated","time":"2025-02-04T02:23:46+05:00"}
 {"level":"info","msg":"Server gracefully stopped","time":"2025-02-04T02:23:46+05:00"}
 {"level":"info","msg":"Generated OAuth URL: https://accounts.google.com/o/oauth2/auth?access_type=offline\u0026client_id=286158085516-99667vsqtlboonqccqdrnm8afk5lsfgo.apps.googleusercontent.com\u0026redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Foauth%2Fcallback\u0026response_type=code\u0026scope=email+profile\u0026state=hello+world","time":"2025-02-04T02:24:02+05:00"}
+{"level":"info","msg":"Graceful shutdown initiated","time":"2025-02-04T02:35:16+05:00"}
+{"level":"info","msg":"Server gracefully stopped","time":"2025-02-04T02:35:16+05:00"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T03:00:27+05:00","user_id":"679f4961bcca09b1aabeca04"}
+{"level":"info","msg":"Graceful shutdown initiated","time":"2025-02-04T03:04:39+05:00"}
+{"level":"info","msg":"Server gracefully stopped","time":"2025-02-04T03:04:39+05:00"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:28:48+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"level":"info","msg":"addRecipe Handler ","time":"2025-02-04T10:36:39+05:00"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:41:03+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-04T10:42:28+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:42:43+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-04T10:42:52+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:44:50+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:45:13+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:46:08+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:47:30+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:48:29+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-04T10:54:10+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T10:11:55+05:00","user_id":"67a11ec3c425e1c577934428"}
