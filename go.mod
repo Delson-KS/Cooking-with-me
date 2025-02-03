@@ -7,6 +7,7 @@ require (
 	github.com/gorilla/sessions v1.4.0
 	github.com/joho/godotenv v1.5.1
 	github.com/sirupsen/logrus v1.9.3
+	github.com/tebeka/selenium v0.9.9
 	go.mongodb.org/mongo-driver v1.17.2
 	golang.org/x/crypto v0.26.0
 	golang.org/x/oauth2 v0.25.0
@@ -15,6 +16,7 @@ require (
 
 require (
 	cloud.google.com/go/compute/metadata v0.3.0 // indirect
+	github.com/blang/semver v3.5.1+incompatible // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/gorilla/securecookie v1.1.2 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
