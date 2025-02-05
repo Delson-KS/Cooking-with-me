@@ -30,12 +30,18 @@ func ServeRegister(w http.ResponseWriter, r *http.Request) {
 }
 func ServeAdminPage(w http.ResponseWriter, r *http.Request) {
 	session, _ := Store.Get(r, "projectGo")
-	_, ok := session.Values["userID"]
-	if !ok {
+	userID, ok := session.Values["userID"].(string)
+	if !ok || userID == "" {
 		http.Redirect(w, r, "/loginPage", http.StatusFound)
 		return
 	}
-
+	objectID, _ := primitive.ObjectIDFromHex(userID)
+	var user User
+	err := UserCollection.FindOne(context.TODO(), bson.M{"_id": objectID}).Decode(&user)
+	if err != nil || user.Status != "admin" {
+		http.Error(w, "User not an admin", http.StatusForbidden)
+		return
+	}
 	http.ServeFile(w, r, "./html/adminPage.html")
 }
 

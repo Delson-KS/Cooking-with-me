@@ -29,7 +29,7 @@ async function sendEmail() {
     const emailData = {
         subject: subject,
         body: body,
-        toEmail: "adil_groud@mail.ru",
+        toEmail: "alpysbaevaajymgul@gmail.com",
     };
 
     const formData = new FormData();

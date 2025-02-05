@@ -1,5 +1,5 @@
 let recipes = [];
-let totalCount = 0; // Total number of Pokémon
+let totalCount = 0;
 let currentPage = 1;
 let recipesPerPage = 6;
 let sortAttribute = "name";

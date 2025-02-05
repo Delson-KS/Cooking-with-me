@@ -216,3 +216,67 @@
 {"action":"login","level":"info","msg":"success","time":"2025-02-04T10:48:29+05:00","user_id":"67a11ec3c425e1c577934428"}
 {"action":"login","level":"info","msg":"success","time":"2025-02-04T10:54:10+05:00","user_id":"67a11ec3c425e1c577934428"}
 {"action":"login","level":"info","msg":"success","time":"2025-02-05T10:11:55+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:03:14+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T15:06:42+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"registration","level":"info","msg":"success","time":"2025-02-05T15:07:38+05:00","user_id":"000000000000000000000000"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:07:44+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T15:10:18+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"level":"info","msg":"Generated OAuth URL: https://accounts.google.com/o/oauth2/auth?access_type=offline\u0026client_id=286158085516-99667vsqtlboonqccqdrnm8afk5lsfgo.apps.googleusercontent.com\u0026redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Foauth%2Fcallback\u0026response_type=code\u0026scope=email+profile\u0026state=hello+world","time":"2025-02-05T15:10:20+05:00"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:11:06+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"level":"info","msg":"addRecipe Handler ","time":"2025-02-05T15:11:55+05:00"}
+{"level":"info","msg":"addRecipe Handler ","time":"2025-02-05T15:11:55+05:00"}
+{"level":"info","msg":"Inserting recipe into database...","time":"2025-02-05T15:11:55+05:00"}
+{"level":"info","msg":"Inserting recipe into database...","time":"2025-02-05T15:11:55+05:00"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T15:12:53+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:12:57+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"level":"info","msg":"Graceful shutdown initiated","time":"2025-02-05T15:22:28+05:00"}
+{"level":"info","msg":"Server gracefully stopped","time":"2025-02-05T15:22:28+05:00"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:24:00+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"level":"info","msg":"Graceful shutdown initiated","time":"2025-02-05T15:24:56+05:00"}
+{"level":"info","msg":"Server gracefully stopped","time":"2025-02-05T15:24:56+05:00"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:25:37+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:26:40+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T15:30:16+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:35:22+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"level":"info","msg":"addRecipe Handler ","time":"2025-02-05T15:35:43+05:00"}
+{"level":"info","msg":"addRecipe Handler ","time":"2025-02-05T15:35:43+05:00"}
+{"level":"info","msg":"Inserting recipe into database...","time":"2025-02-05T15:35:43+05:00"}
+{"level":"info","msg":"Inserting recipe into database...","time":"2025-02-05T15:35:43+05:00"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:40:34+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:41:48+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:42:49+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"level":"info","msg":"addRecipe Handler ","time":"2025-02-05T15:43:48+05:00"}
+{"level":"info","msg":"addRecipe Handler ","time":"2025-02-05T15:43:48+05:00"}
+{"level":"info","msg":"Inserting recipe into database...","time":"2025-02-05T15:43:48+05:00"}
+{"level":"info","msg":"Inserting recipe into database...","time":"2025-02-05T15:43:48+05:00"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T15:45:47+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T15:45:52+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T15:45:59+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T16:05:23+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T16:24:05+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"level":"info","msg":"Generated OAuth URL: https://accounts.google.com/o/oauth2/auth?access_type=offline\u0026client_id=286158085516-99667vsqtlboonqccqdrnm8afk5lsfgo.apps.googleusercontent.com\u0026redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Foauth%2Fcallback\u0026response_type=code\u0026scope=email+profile\u0026state=hello+world","time":"2025-02-05T16:24:09+05:00"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T16:49:25+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T16:52:13+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T16:57:00+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T17:01:21+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T17:02:11+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T17:03:50+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T17:05:13+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T17:05:38+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"registration","level":"info","msg":"success","time":"2025-02-05T17:06:26+05:00","user_id":"000000000000000000000000"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T17:06:39+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T17:07:09+05:00","user_id":"67a3386a8293a07f3e33c522"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T17:07:22+05:00","user_id":"67a354416d2d8bc128678b60"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T17:07:51+05:00","user_id":"67a354416d2d8bc128678b60"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T17:09:12+05:00","user_id":"67a354416d2d8bc128678b60"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-05T17:10:03+05:00","user_id":"67a354416d2d8bc128678b60"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-05T17:10:21+05:00","user_id":"67a354416d2d8bc128678b60"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-10T14:07:37+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-10T14:07:44+05:00","user_id":"67a11ec3c425e1c577934428"}
+{"action":"registration","level":"info","msg":"success","time":"2025-02-10T14:10:19+05:00","user_id":"000000000000000000000000"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-10T14:10:43+05:00","user_id":"67a9c27b4a7a49e2b07ae41a"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-11T11:41:56+05:00","user_id":"67a9c27b4a7a49e2b07ae41a"}
+{"level":"info","msg":"Graceful shutdown initiated","time":"2025-02-11T11:42:48+05:00"}
+{"level":"info","msg":"Server gracefully stopped","time":"2025-02-11T11:42:48+05:00"}
+{"action":"Logout","level":"info","msg":"success","time":"2025-02-11T11:43:15+05:00","user_id":"67a9c27b4a7a49e2b07ae41a"}
+{"action":"login","level":"info","msg":"success","time":"2025-02-11T11:44:11+05:00","user_id":"67a9c27b4a7a49e2b07ae41a"}

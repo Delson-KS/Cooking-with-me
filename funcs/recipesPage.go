@@ -17,7 +17,7 @@ func GetRecipesHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Parse query parameters for pagination, sorting, filtering, and price range
+	// Принятие данных с front
 	page := r.URL.Query().Get("page")
 	perPage := r.URL.Query().Get("perPage")
 	sortBy := r.URL.Query().Get("sortBy")
@@ -25,7 +25,7 @@ func GetRecipesHandler(w http.ResponseWriter, r *http.Request) {
 	levelFilter := r.URL.Query().Get("levelFilter")
 	minPrice := r.URL.Query().Get("minPrice")
 	maxPrice := r.URL.Query().Get("maxPrice")
-
+	// Parse query parameters for pagination,
 	if page == "" {
 		page = "1"
 	}
@@ -45,6 +45,7 @@ func GetRecipesHandler(w http.ResponseWriter, r *http.Request) {
 		perPageInt = 6
 	}
 
+	// Parse query parameters for filter,
 	filter := bson.M{}
 	if levelFilter != "All" && levelFilter != "" {
 		filter["level"] = levelFilter
@@ -54,7 +55,7 @@ func GetRecipesHandler(w http.ResponseWriter, r *http.Request) {
 		maxPriceFloat, _ := strconv.ParseFloat(maxPrice, 64)
 		filter["price"] = bson.M{"$gte": minPriceFloat, "$lte": maxPriceFloat}
 	}
-
+	// Parse query parameters for sort,
 	sortOrder := 1
 	if sortDirection == "desc" {
 		sortOrder = -1
@@ -66,7 +67,7 @@ func GetRecipesHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Failed to count Recipes", http.StatusInternalServerError)
 		return
 	}
-
+	//Display recipes from db
 	cursor, err := RecipeCollection.Find(context.TODO(), filter, options.Find().
 		SetSort(sortQuery).
 		SetSkip(int64((pageInt-1)*perPageInt)).
