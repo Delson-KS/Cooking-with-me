@@ -16,7 +16,10 @@ func ServeLogin(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "./html/login.html")
 }
 func VerifyEmailPage(w http.ResponseWriter, r *http.Request) {
-
+	if checkSession(w, r) {
+		http.Redirect(w, r, "/mainPage", http.StatusFound)
+		return
+	}
 	http.ServeFile(w, r, "./html/verifyEmailPage.html")
 }
 
