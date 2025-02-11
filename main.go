@@ -53,7 +53,7 @@ func main() {
 		Path:     "/",
 		MaxAge:   60 * 60,
 		HttpOnly: true,
-		Secure:   false,
+		Secure:   true,
 		SameSite: http.SameSiteStrictMode,
 	}
 
