@@ -41,7 +41,7 @@ func ServeAdminPage(w http.ResponseWriter, r *http.Request) {
 	var user User
 	err := UserCollection.FindOne(context.TODO(), bson.M{"_id": objectID}).Decode(&user)
 	if err != nil || user.Status != "admin" {
-		http.Error(w, "Forbidden", http.StatusForbidden)
+		http.Error(w, "Access denied", http.StatusForbidden)
 		return
 	}
 	http.ServeFile(w, r, "./html/adminPage.html")
