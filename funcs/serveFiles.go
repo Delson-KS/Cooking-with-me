@@ -13,7 +13,7 @@ func ServeLogin(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, "/mainPage", http.StatusFound)
 		return
 	}
-	http.ServeFile(w, r, "/Users/kaiyrkeldi_sagitzan/GolandProjects/awesomeProject3/html/login.html")
+	http.ServeFile(w, r, "./html/login.html")
 }
 func VerifyEmailPage(w http.ResponseWriter, r *http.Request) {
 
