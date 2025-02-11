@@ -20,7 +20,7 @@ func VerifyEmailPage(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, "/mainPage", http.StatusFound)
 		return
 	}
-	http.ServeFile(w, r, "./html/verifyEmailзage.html")
+	http.ServeFile(w, r, "./html/verifyEmailpage.html")
 }
 
 // Renders registration page if user is not logged in
