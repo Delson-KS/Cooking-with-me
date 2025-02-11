@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"reflect"
 	"testing"
+	"time"
 )
 
 func FilterRecipesByLevel(Recipes []funcs.Recipe, RecipeType string) []funcs.Recipe {
@@ -26,7 +27,9 @@ func TestFilterRecipesByLevel(t *testing.T) {
 
 	filtered := FilterRecipesByLevel(Recipes, RecipeLevel)
 	fmt.Println("TESTING UNIT TEST")
+	time.Sleep(1 * time.Second)
 	expected := []funcs.Recipe{{Name: "Mushroom Risotto 1", Level: "master"}}
+
 	if !reflect.DeepEqual(filtered, expected) {
 		t.Errorf("Incorrect filtered Recipes. Expected: %v, Got: %v", expected, filtered)
 	}

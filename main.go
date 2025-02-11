@@ -119,7 +119,6 @@ func main() {
 		if r.URL.Path == "/" {
 			http.Redirect(w, r, "/loginPage", http.StatusFound)
 		} else {
-			// For any other unknown route, serve 404 page
 			http.ServeFile(w, r, "./404.html")
 		}
 	})

@@ -17,7 +17,7 @@ func ServeLogin(w http.ResponseWriter, r *http.Request) {
 }
 func VerifyEmailPage(w http.ResponseWriter, r *http.Request) {
 
-	http.ServeFile(w, r, "./html/verifyEmailPage.html")
+	http.ServeFile(w, r, "./html/verifyEmailpage.html")
 }
 
 // Renders registration page if user is not logged in
@@ -30,12 +30,20 @@ func ServeRegister(w http.ResponseWriter, r *http.Request) {
 }
 func ServeAdminPage(w http.ResponseWriter, r *http.Request) {
 	session, _ := Store.Get(r, "projectGo")
-	_, ok := session.Values["userID"]
-	if !ok {
-		http.Redirect(w, r, "/loginPage", http.StatusFound)
+	userID, ok := session.Values["userID"].(string)
+	if !ok || userID == "" {
+		http.Error(w, "Unauthorized", http.StatusUnauthorized)
 		return
 	}
 
+	// Получаем пользователя из базы данных
+	objectID, _ := primitive.ObjectIDFromHex(userID)
+	var user User
+	err := UserCollection.FindOne(context.TODO(), bson.M{"_id": objectID}).Decode(&user)
+	if err != nil || user.Status != "admin" {
+		http.Error(w, "Forbidden", http.StatusForbidden)
+		return
+	}
 	http.ServeFile(w, r, "./html/adminPage.html")
 }
 
